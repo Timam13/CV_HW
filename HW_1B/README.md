@@ -134,3 +134,8 @@
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+
+```bash
+python src/run_all.py --video data/videos/new_scene.mp4 --out outputs/new_scene --max-frames 150
+
