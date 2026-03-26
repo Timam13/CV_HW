@@ -1,0 +1,19 @@
+{
+  "run_name": "cifar10_baseline",
+  "dataset": "cifar10",
+  "train_size": 40000,
+  "val_size": 10000,
+  "best_epoch": 37,
+  "best_val_acc": 0.7911,
+  "final_val_loss": 0.9788466728210449,
+  "patch_size": 4,
+  "sequence_length": 65,
+  "token_dim": 256,
+  "depth": 6,
+  "num_heads": 4,
+  "params_total": 4771082,
+  "attn_scores_per_block": 16900,
+  "attn_memory_mb_fp32_per_block": 0.0644683837890625,
+  "attn_flops_per_block": 19202560,
+  "attn_flops_total": 115215360
+}

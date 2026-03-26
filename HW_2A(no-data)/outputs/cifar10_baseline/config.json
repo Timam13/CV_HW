@@ -1,0 +1,43 @@
+{
+  "run_name": "cifar10_baseline",
+  "output_dir": "outputs",
+  "device": "auto",
+  "seed": 42,
+  "model": {
+    "image_size": 32,
+    "patch_size": 4,
+    "in_channels": 3,
+    "num_classes": 10,
+    "embed_dim": 256,
+    "depth": 6,
+    "num_heads": 4,
+    "mlp_ratio": 4.0,
+    "dropout": 0.1,
+    "attention_dropout": 0.0,
+    "drop_path": 0.1,
+    "cls_token": true,
+    "pooling": "cls"
+  },
+  "training": {
+    "epochs": 40,
+    "batch_size": 128,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.05,
+    "warmup_epochs": 3,
+    "label_smoothing": 0.1,
+    "num_workers": 4,
+    "grad_clip_norm": 1.0,
+    "amp": true,
+    "max_misclassified": 25
+  },
+  "data": {
+    "dataset": "cifar10",
+    "data_root": "data",
+    "train_dir": null,
+    "val_dir": null,
+    "download": true,
+    "val_ratio": 0.2,
+    "image_size": 32,
+    "seed": 42
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "per_class_accuracy": [
+    {
+      "class": "airplane",
+      "correct": 778,
+      "total": 973,
+      "accuracy": 0.7995889003083247
+    },
+    {
+      "class": "automobile",
+      "correct": 905,
+      "total": 1010,
+      "accuracy": 0.8960396039603961
+    },
+    {
+      "class": "bird",
+      "correct": 750,
+      "total": 1006,
+      "accuracy": 0.7455268389662028
+    },
+    {
+      "class": "cat",
+      "correct": 614,
+      "total": 967,
+      "accuracy": 0.6349534643226473
+    },
+    {
+      "class": "deer",
+      "correct": 717,
+      "total": 963,
+      "accuracy": 0.7445482866043613
+    },
+    {
+      "class": "dog",
+      "correct": 709,
+      "total": 1024,
+      "accuracy": 0.6923828125
+    },
+    {
+      "class": "frog",
+      "correct": 854,
+      "total": 1025,
+      "accuracy": 0.833170731707317
+    },
+    {
+      "class": "horse",
+      "correct": 859,
+      "total": 1035,
+      "accuracy": 0.8299516908212561
+    },
+    {
+      "class": "ship",
+      "correct": 884,
+      "total": 998,
+      "accuracy": 0.8857715430861723
+    },
+    {
+      "class": "truck",
+      "correct": 841,
+      "total": 999,
+      "accuracy": 0.8418418418418419
+    }
+  ],
+  "hardest_pairs": [
+    {
+      "true_class": "dog",
+      "predicted_as": "cat",
+      "count": 162,
+      "error_rate": 0.158203125
+    },
+    {
+      "true_class": "cat",
+      "predicted_as": "dog",
+      "count": 151,
+      "error_rate": 0.15615305067218202
+    },
+    {
+      "true_class": "truck",
+      "predicted_as": "automobile",
+      "count": 79,
+      "error_rate": 0.07907907907907907
+    },
+    {
+      "true_class": "deer",
+      "predicted_as": "horse",
+      "count": 73,
+      "error_rate": 0.07580477673935618
+    },
+    {
+      "true_class": "bird",
+      "predicted_as": "deer",
+      "count": 61,
+      "error_rate": 0.06063618290258449
+    },
+    {
+      "true_class": "automobile",
+      "predicted_as": "truck",
+      "count": 51,
+      "error_rate": 0.0504950495049505
+    },
+    {
+      "true_class": "ship",
+      "predicted_as": "airplane",
+      "count": 50,
+      "error_rate": 0.050100200400801605
+    },
+    {
+      "true_class": "frog",
+      "predicted_as": "cat",
+      "count": 49,
+      "error_rate": 0.04780487804878049
+    },
+    {
+      "true_class": "horse",
+      "predicted_as": "deer",
+      "count": 49,
+      "error_rate": 0.04734299516908213
+    },
+    {
+      "true_class": "airplane",
+      "predicted_as": "bird",
+      "count": 40,
+      "error_rate": 0.041109969167523124
+    }
+  ],
+  "hardest_classes": [
+    {
+      "class": "cat",
+      "correct": 614,
+      "total": 967,
+      "accuracy": 0.6349534643226473
+    },
+    {
+      "class": "dog",
+      "correct": 709,
+      "total": 1024,
+      "accuracy": 0.6923828125
+    },
+    {
+      "class": "deer",
+      "correct": 717,
+      "total": 963,
+      "accuracy": 0.7445482866043613
+    },
+    {
+      "class": "bird",
+      "correct": 750,
+      "total": 1006,
+      "accuracy": 0.7455268389662028
+    },
+    {
+      "class": "airplane",
+      "correct": 778,
+      "total": 973,
+      "accuracy": 0.7995889003083247
+    },
+    {
+      "class": "horse",
+      "correct": 859,
+      "total": 1035,
+      "accuracy": 0.8299516908212561
+    },
+    {
+      "class": "frog",
+      "correct": 854,
+      "total": 1025,
+      "accuracy": 0.833170731707317
+    },
+    {
+      "class": "truck",
+      "correct": 841,
+      "total": 999,
+      "accuracy": 0.8418418418418419
+    },
+    {
+      "class": "ship",
+      "correct": 884,
+      "total": 998,
+      "accuracy": 0.8857715430861723
+    },
+    {
+      "class": "automobile",
+      "correct": 905,
+      "total": 1010,
+      "accuracy": 0.8960396039603961
+    }
+  ]
+}
